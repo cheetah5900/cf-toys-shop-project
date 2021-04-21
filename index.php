@@ -20,8 +20,8 @@ $qry_sale = mysqli_query($conn, $sql_sale);
         if($check_row_sale>=1){ /*ตรวจสอบว่าถ้ามีแถวออกมา แสดงว่ามีสินค้า*/
     ?>
      <div class="container divspace">
-        <div class="row tm-bg-green-1">
-            <div class="col-sm-6" style="float:left;"><font class="head-content">สินค้าลดราคา</font></div><div class="col-sm-6 allproduct"><a href="allproduct.php?rec=1">ดูทั้งหมด > &nbsp;</a></div>
+        <div class="row tm-bg-orange-1">
+            <div class="col-sm-6" style="float:left;"><font class="head-content">สินค้าลดราคา</font></div><div class="col-sm-6 allproduct"><a href="allproduct.php?rec=1" class="whitetext">ดูทั้งหมด > &nbsp;</a></div>
         </div>
 
         <div class="row">
@@ -50,8 +50,8 @@ $qry_sale = mysqli_query($conn, $sql_sale);
      <!-- รายการแนะนำ --> 
     
      <div class="container divspace">
-        <div class="row tm-bg-green-1">
-            <div class="col-sm-6" style="float:left;"><font class="head-content">รายการแนะนำ</font></div><div class="col-sm-6 allproduct"><a href="allproduct.php?rec=2">ดูทั้งหมด > &nbsp;</a></div>
+        <div class="row tm-bg-orange-1">
+            <div class="col-sm-6" style="float:left;"><font class="head-content">รายการแนะนำ</font></div><div class="col-sm-6 allproduct"><a href="allproduct.php?rec=2" class="whitetext">ดูทั้งหมด > &nbsp;</a></div>
         </div>
 
         <div class="row">

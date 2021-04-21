@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row divspace">
             <table style="width:100%">
-                <tr class="tm-bg-green-1">
+                <tr class="tm-bg-orange-1">
                     <td class="head-content paddinghead">ติดต่อ-สอบถาม</td>
                 </tr>
                 <tr class="paddingtop" style="background-color: #fff;">

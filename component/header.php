@@ -45,10 +45,10 @@
         <div class="container-fluid">
                 <!-- 1. Site Header -->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-xs-center">
+                    <div class="col-sm-12 text-xs-center">
 
-                        <div class="tm-site-title"><a style="color:white;" href="index.php">CFtoys.shop</a></div>
-                        <div class="tm-section-title">ขายตุ๊กตา ของขวัญ และของสะสม น่ารัก นำเข้า ราคาถูก</div>
+                        <div class="tm-site-title"><a style="color:white;" href="index.php">Glacier.Shop</a></div>
+                        <div class="tm-section-title">แหล่งรวมของใช้ดีบอกต่อ คัดมาทุกชิ้นยิ่งสั่งเยอะ ยิ่งลดเยอะ !</div>
                     
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <!-- 2. Navigation -->
                 <div class="row tm-navbar-row tm-navbar-row-absolute">
                     <div class="tm-navbar-container">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
                                 <div class="text-xs-center tm-navbar-rounded">                            
 

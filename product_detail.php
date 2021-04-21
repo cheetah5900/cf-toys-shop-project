@@ -9,7 +9,7 @@
 
         <!-- Plan -->
     <div class="container">
-        <div class="row paddinghead head-content tm-bg-green-1">
+        <div class="row paddinghead head-content tm-bg-orange-1">
             รายละเอียด: <?php echo $fetch_product['Name']; ?>
         </div>
 
@@ -52,7 +52,7 @@
 
 
     <div class="container divspace">
-        <div class="row tm-bg-green-2">
+        <div class="row tm-bg-orange-2">
             <div class="col-md-6 content"><b>รหัสสินค้า:</b> <?php echo $fetch_product['ID']; ?></div>
             <div class="col-md-6 content"><b>ชื่อสินค้า:</b>&nbsp; <?php echo $fetch_product['Name']; ?></div>
             <div class="col-md-6 content"><b>ประเภท:</b>&nbsp;&nbsp; <?php echo $fetch_product['Type_Name']; ?></div>

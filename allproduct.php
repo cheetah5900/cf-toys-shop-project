@@ -14,7 +14,7 @@
 ?>
 <?php include 'component/header.php'?>
     <div class="container divspace">
-    <div class="row tm-bg-green-1" style="border:1px solid orange;">
+    <div class="row tm-bg-orange-1" style="border:1px solid orange;">
             <div class="col-sm-12"><font class="head-content">
             <?php /*ตรงหัวข้อ ถ้ากดมาจากลดราคาสินค้าทั้งหมดจะแสดงคำว่า สินค้าลดราคา และถ้ากดดูทั้งหมดจากรายการแนะนำ จะขึ้นคำว่า รายการแนะนำ */
             if($recid=='1')

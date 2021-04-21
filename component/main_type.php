@@ -14,9 +14,9 @@
         } 
 
         ?>
-        <div class="row tm-bg-green-1 head-content paddinghead <?php echo $catclass;?>">หมวดหมู่</div>
+        <div class="row tm-bg-orange-1 head-content paddinghead <?php echo $catclass;?>">หมวดหมู่</div>
 
-                <div class="row tm-bg-green-2 <?php echo $catclass2;?>">
+                <div class="row tm-bg-orange-2 <?php echo $catclass2;?>">
                         <div class="text-xs-center borderbuttom head-content">
                                ประเภทสินค้า
                         </div>

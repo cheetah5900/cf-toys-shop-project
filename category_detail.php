@@ -35,7 +35,7 @@ $fetch_name = mysqli_fetch_assoc($qry_typename);
 ?>
 <?php include 'component/header.php'?>
     <div class="container divspace">
-    <div class="row tm-bg-green-1" style="border:1px solid orange;">
+    <div class="row tm-bg-orange-1" style="border:1px solid orange;">
             <div class="col-sm-12"><font class="head-content">
             <?php 
             /*ถ้าเป็นประเภทสินค้าให้แสดงคำว่าหมวดหมู่ ถ้าเป็นการ์ตูนเรื่อง ให้แสดงคำว่าการ์ตูนเรื่อง*/
