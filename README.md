@@ -42,3 +42,7 @@ But I think it is my good practice and experience for me. I decide to keep this 
 2. Go to `localhost/cftoys`
 3. Done
 
+## How to use
+- There is no backend system
+- I need to add each item to database at PHPMyAdmin
+
