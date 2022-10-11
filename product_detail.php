@@ -3,6 +3,7 @@
     $id = $_GET['id'];
     $sql_product = "SELECT * FROM product,type,model,movie WHERE ID = $id AND product.Type_ID = type.Type_ID AND model.Model_ID = product.Model_ID AND product.Movie_ID = movie.Movie_ID";
     $qry_product = mysqli_query($conn, $sql_product);
+    
     $fetch_product = mysqli_fetch_assoc($qry_product);
 ?>
 <?php include 'component/header.php'?>
@@ -50,10 +51,10 @@
         </div>  <!--div row-->
     </div> <!--div container-->
 
-
     <div class="container divspace">
         <div class="row tm-bg-orange-2">
-            <div class="col-md-6 content"><b>รหัสสินค้า:</b> <?php echo $fetch_product['ID']; ?></div>
+            <div class="col-md-6 content">    
+            <b>รหัสสินค้า:</b> <?php echo $fetch_product['ID']; ?></div>
             <div class="col-md-6 content"><b>ชื่อสินค้า:</b>&nbsp; <?php echo $fetch_product['Name']; ?></div>
             <div class="col-md-6 content"><b>ประเภท:</b>&nbsp;&nbsp; <?php echo $fetch_product['Type_Name']; ?></div>
             <div class="col-md-6 content"><b>เรื่อง:</b>&nbsp; <?php echo $fetch_product['Movie_Name']; ?></div>

@@ -360,10 +360,12 @@
 
 
 	.tm-bg-orange-1,
-	.tm-bg-orange-2,
 	.tm-bg-orange-3,
 	.tm-color-orange { 
 		color: #ffffff; 
+	}
+	.tm-bg-orange-2{
+		color:#000
 	}
 	.tm-bg-blue-1,
 	.tm-bg-blue-2,
